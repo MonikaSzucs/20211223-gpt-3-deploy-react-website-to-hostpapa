@@ -39,7 +39,7 @@
     color: var(--color-white);
     font-family: var(--font-family);
     font-weight: 500;
-    font-size: 18px;
+    font-size: var(--font-size-navbar);
     line-height: 25px;
     text-transform: capitalize;
 
@@ -54,9 +54,10 @@
     background: var(--color-button);
     font-family: var(--font-family);
     font-weight: 500;
-    font-size: 18px;
+    font-size: var(--font-size-navbar);
     line-height: 25px;
     border-radius: 5px;
     border: 0;
     outline: none;
+    cursor: pointer;
 }
